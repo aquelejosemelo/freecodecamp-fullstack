@@ -1,0 +1,95 @@
+/* mudança da cor do background */
+body    {
+    background-color: lavender; /*fundo azul */
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    
+}
+#titulos {
+    color: lightblue;
+    font-family: 'Seymour One', sans-serif;
+}
+.texto {
+    font-size: 18px;
+    color: rgb(155, 155, 226); 
+    text-transform: initial;
+}
+
+.faixas {
+    
+    font-size: 20px;
+    color: blueviolet;
+    text-transform: lowercase;
+}
+
+table, th, td {
+    border: 2px solid;
+    border-collapse: collapse;
+    margin: auto;
+    color: blueviolet;
+}
+
+th, td {
+    padding: 10px;
+}
+
+#ts_album{
+    width: 300px;
+    margin: auto;
+}
+
+#ts_album{
+    padding: 10px;
+}
+
+#ts_album tr:not(:first-child):hover{
+    background: white;
+}
+
+.row {
+    display: flex;
+    vertical-align: bottom;
+}
+
+.colum {
+    width: 100%;
+    vertical-align:bottom;
+}
+
+.icones:hover .dropdown-menu {
+    display:block;
+}
+
+.dropdown-menu {
+    display: none;
+    position:relative;
+    background-color: lavender;
+    min-width: 150px;
+}
+
+.dropdown-menu a {
+    color: blueviolet;
+    padding: 11px 15px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-menu a:hover {
+    background-color: white;
+}
+
+#game_menu a{
+    text-decoration: none;
+}
+
+#game_menu {
+    border: 2px;
+    padding: 10px;
+    margin: 10px auto;
+    background-color: white;
+    width: 100px;
+}
+
+#game_menu a:hover {
+    font-size: large;
+}
