@@ -56,8 +56,14 @@ th, td {
     vertical-align:bottom;
 }
 
+.icones {
+    margin-top: 10px;
+}
+
 .icones:hover .dropdown-menu {
     display:block;
+    width: 100px;
+    margin: 10px auto;
 }
 
 .dropdown-menu {
@@ -78,11 +84,11 @@ th, td {
     background-color: white;
 }
 
-#game_menu a{
+#webpages a{
     text-decoration: none;
 }
 
-#game_menu {
+#webpages {
     border: 2px;
     padding: 10px;
     margin: 10px auto;
@@ -90,6 +96,6 @@ th, td {
     width: 100px;
 }
 
-#game_menu a:hover {
+#webpages a:hover {
     font-size: large;
 }
